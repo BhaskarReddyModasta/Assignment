@@ -49,7 +49,6 @@ class CanadaListViewController: UIViewController {
         }
     }
     func configureTableView() {
-    
         listTableView.dataSource = self
         listTableView.estimatedRowHeight = 100
         listTableView.allowsSelection = false
@@ -65,7 +64,6 @@ class CanadaListViewController: UIViewController {
         constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:|[listTableView(0)]|", options: [], metrics: nil, views: views)
         NSLayoutConstraint.activate(constraints)
         
- 
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -98,5 +96,4 @@ extension CanadaListViewController: UITableViewDataSource, UITableViewDelegate {
     override func viewWillLayoutSubviews() {
       super.viewWillLayoutSubviews()
     }
-
 }
