@@ -5,12 +5,10 @@
 //  Created by Admin on 13/06/18.
 //  Copyright © 2018 Bhaskar. All rights reserved.
 //
-
 import UIKit
 import SDWebImage
 
 class CanadaListViewController: UIViewController {
-
     fileprivate let cellIdentifier = "cellid"
     fileprivate let listTableView = UITableView()
     fileprivate var viewModel = CanadaListViewModel()
